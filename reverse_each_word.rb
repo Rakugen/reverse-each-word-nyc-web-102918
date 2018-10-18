@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
 
 #  new_sentence = rev_words.join(" ")
 
-  rev_words = words.collect { |x| x.reverse}
+  rev_words = words.collect { |x| x.reverse }
   rev_words.join(" ")
   end
 end
